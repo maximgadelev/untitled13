@@ -12,8 +12,8 @@ int binarySearch(int array[],int left,int right,int x){
     return -1;
 }
 int main() {
-    int arr[]={2,3,4,10,40};
-    int x =10;
+    int arr[]={1,2,3,54,220};
+    int x =54;
     int n= sizeof(arr)/ sizeof(arr[0]);
     int result= binarySearch(arr,0,n-1,x);
     cout<<result;
